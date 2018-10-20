@@ -1,99 +1,240 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-    <meta name="description" content="Ryan Gundu's Portfolio">
-    <meta name="author" content="Ryan Gundu">
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <title>Home | Ryan Gundu</title>
-
-    <link href="/styles/bootstrap.min.css" rel="stylesheet">
-
-    <link href="/styles/justified-nav.css" rel="stylesheet">
-
-  </head>
-
-  <body>
-
-    <div class="container">
-
-      <header class="masthead">
-        <h3>Ryan Gundu</h3>
-
-        <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav text-md-center nav-justified w-100">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
+  <link rel="stylesheet" href="styles.css">
+  <title>Ryan Gundu | Home</title>
+   
+</head>
+<body>
+    <nav class="navbar navbar-default sticky">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <h1 class="name">Ryan Gundu</h1>
+            <!-- <a class="navbar-brand" href="#">Ryan Gundu</a> -->
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active" ><a href="#">HOME<span class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#proj1">Geaneology API</a></li>
+                  <li><a href="#proj2">Tool Trader</a></li>
+                  <li><a href="#proj3">Pandanus Kitchens</a></li>
+                  <li><a href="#proj4">Fortnite Comparison</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="dataStructures.html">Data Structures</a></li>
+                </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects <span class="sr-only">(current)</span></a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" href="Projects.html">School Related</a>
-                  <a class="dropdown-item" href="apps.html">Personal</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="About.html">About Me</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" >Phone #: 647-539-5695</a>
-                  <a class="dropdown-item" >Email: ryangundu@hotmail.com</a>
-                </div>
-              </li>
+              <li><a href="http://www.github.com/RyanGundu"><i class="fa fa-github" style="font-size:36px; color:#005ce6;"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/ryan-gundu/"><i class="fa fa-linkedin" style="font-size:36px; color:#005ce6;"></i></a></li>
             </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="content">
+
+        <div id="proj1" class="row">
+          <div class="row">
+            <div class="proj-img col-sm-4">
+              <div class="frame">
+                <img class="img-responsive" src="https://www.nextadvisor.com/blog/wp-content/uploads/2015/02/bigstock-Green-tree-round-icon-663057551.jpg">
+              </div>
+            </div>
+            <div class="proj-content col-sm-8">
+              <h1>Geaneology API</h1>
+              The Genealogy API is my largest project yet; the final product is a full stack application. It was completed throughout the span of a semester. The GEDCOM file parser was made with C, the front end with HTML and CSS. Also, I implemented a Node.js server to allow communication between the front end and a MySQL DBMS.
+              <h1 class="aldrich">var tools = [HTML/CSS, JavaScript, Node.js, C, MySQL];</h1>
+              <h1 class="aldrich">SRC: <a href="https://github.com/RyanGundu/Genealogy-API" target="_blank">https://github.com/RyanGundu/Genealogy-API</a></h1>
+            </div>
           </div>
-        </nav>
-      </header>
-
-      <main role="main">
-
-        <!-- Jumbotron -->
-        <div class="jumbotron">
-          <h1>Hello!</h1>
-          <p class="lead">My name is Ryan Gundu, this website is all about me! Have a look around at some of the projects I have worked on.</p>
-          <p><a class="btn btn-lg btn-success" href="../Images/Resume.pdf" target="_blank" role="button">Résumé</a></p>
+          <div class="row">
+            <div class="col-lg-12">
+              <div id="panel1" class="collapse">
+                <section class="details-card">
+                  <div class="container">
+                    <div class="row">
+                      <div class=" col-md-4">
+                        <div class="card-content">
+                          <div class="card-img">
+                            <img src="./images/gedcom.png" alt="">
+                            <span><h4>File Type</h4></span>
+                          </div>
+                          <div class="card-desc">
+                            <h3>GEDCOM</h3>
+                            <p>
+                              What is a GEDCOM file? To break it down, it serves as a family tree but in the form of a text file. It contains records for each individual, within a record there could be a name, date of birth etc. Family records link to multiple individual records indicating a single family. Also, each individual can be linked to multiple family records (Ex. To be a mother and a daughter). For more on GEDCOM files click <a href="https://www.thoughtco.com/genealogy-gedcom-basics-1421891" target="_blank">here.</a>
+                            </p>
+                            <a href="./images/gedcomFile.png" target="_blank" class="btn-card">GEDCOM EXAMPLE</a>   
+                          </div>
+                        </div>
+                      </div>
+                        <div class="col-md-4">
+                            <div class="card-content">
+                                <div class="card-img">
+                                    <img src="./images/cCode.png" alt="">
+                                    <span><h4>C</h4></span>
+                                </div>
+                                <div class="card-desc">
+                                    <h3>Parser</h3>
+                                    <p>
+                                      The GEDCOM parser was written entirely with C, considering all the data a file may contain, this was the largest component of the project and most time consuming. There is much to say about the parser and how I connected all the record types. If you are interested in this component of the project have a look at the source code.
+                                    </p>
+                                    <a href="https://github.com/RyanGundu/Genealogy-API/tree/master/parser" target="_blank" class="btn-card">PARSER SOURCE CODE</a>   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card-content">
+                            <div class="card-img">
+                              <img src="./images/app.png" alt="">
+                              <span><h4>UI</h4></span>
+                            </div>
+                            <div class="card-desc">
+                              <h3>Features</h3>
+                              <p>
+                                With the parser complete there is much to do with the data. The Application I designed allowed users to upload multiple GEDCOM files. The user may then:
+                              </p>
+                              <!-- working -->
+                              <div id="sub-panel1" class="collapse">
+                                <ul>
+                                  <li>
+                                    View the details of all uploaded files
+                                    <ul><li>Ex. # of Individuals and Families</li></ul>
+                                  </li>
+                                  <li>Display all individuals in a file</li>
+                                  <li>Add individuals to a selected file (writes to the file)</li>
+                                  <li>Get the descendants of an individual</li>
+                                  <li>Get the ancestors of an individual</li>
+                                  <li>Load data to MySQL DBMS</li>
+                                  <li>
+                                    Organize individuals by
+                                    <ul>
+                                      <li>First/Last name, Sex etc.</li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                                <p>Users are also able to make their own custom queries to the database. The data is returned and displayed in an organized table.</p>
+                              </div>
+                              <br>
+                              <a class="btn-card showBtn" data-toggle="collapse" data-target="#sub-panel1">SHOW MORE</a>
+                              <!-- working --> 
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <a class="btn btn-primary btn-md moreBtn showBtn" data-toggle="collapse" data-target="#panel1">SEE MORE</a>
+            </div>
+          </div>
         </div>
 
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-lg-4 col1">
-              <p>Applications</p>
-              <p><a class="btn btn-primary" href="apps.html" role="button">View details &raquo;</a></p>    
-          </div>
-          <div class="col-lg-3 col2">     
-              <p>About Me</p>
-              <p><a class="btn btn-primary" href="About.html" role="button">View details &raquo;</a></p>   
-          </div>
-          <div class="col-lg-4 col3">
-              <p>Projects</p>
-              <p><a class="btn btn-primary" href="Projects.html" role="button">View details &raquo;</a></p>        
+        <div id="proj2" class="row">
+          <div class="row">
+            <div class="proj-img col-sm-4">
+              <div class="frame">
+                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Circle-icons-tools.svg/1024px-Circle-icons-tools.svg.png">
+              </div>
+              <img>
+            </div>
+            <div class="proj-content col-sm-8">
+              <h1>Tool Trader</h1>
+              Tool Trader is a platform made for selling, renting and trading tools. The front end was constructed with Angular 6 and integrated with Firebase for storing user data and managing authentication. Non registered users may only view items, login is required for posting.
+              <h1 class="aldrich">var tools = [HTML/CSS, TypeScript, Angular 6, Firebase];</h1>
+              <h1 class="aldrich">SRC: <a href="https://github.com/RyanGundu/toolTrader" target="_blank">https://github.com/RyanGundu/toolTrader</a></h1>
+              <!-- <a href="#" class="btn btn-primary btn-md moreBtn showBtn">SEE MORE</a> -->
+            </div>
           </div>
         </div>
 
-      </main>
+        <div id="proj3" class="row">
+          <div class="row">
+            <div class="proj-img png col-sm-4">
+              <div class="frame pandanus">
+                <img class="img-responsive" src="images/pandanusLOGO.png"><img>
+              </div>
+            </div>
+            <div class="proj-content col-sm-8">
+              <h1>Pandanus Kitchens</h1>
+              This website is being made for Pandanus Kitchens. It is designed based on the client’s given objectives and requirements. It follows the theme of the company logo and is simple to navigate through. It offers an organized gallery of their completed work and allows clients to contact via email if needed.
+              <h1 class="aldrich">var tools = [HTML/CSS, JavaScript, Node.js];</h1>
+              <h1 class="aldrich">SRC: <a href="https://github.com/RyanGundu/PandanusProject" target="_blank">https://github.com/RyanGundu/PandanusProject</a></h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div id="panel3" class="collapse">
+                <div class="row container">
+                  <div class="col-lg-5">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-lg-4 proj-img">
+                          <img class="img-responsive" src="https://www.nextadvisor.com/blog/wp-content/uploads/2015/02/bigstock-Green-tree-round-icon-663057551.jpg">
+                        </div>
+                        <div class="col-lg-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi harum ad quo id nisi animi illo natus laboriosam, doloremque mollitia quos aliquam amet pariatur sed rem incidunt dolorem laborum deserunt.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-1"></div>
+                  <div class="col-lg-5">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-lg-4 proj-img">
+                          <img class="img-responsive" src="https://www.nextadvisor.com/blog/wp-content/uploads/2015/02/bigstock-Green-tree-round-icon-663057551.jpg">
+                        </div>
+                        <div class="col-lg-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quae dignissimos, officia nihil tenetur, provident illum placeat ullam quis atque officiis. Quaerat porro sapiente error odit, adipisci dicta qui nisi?</div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- <a class="btn btn-primary btn-md moreBtn showBtn" data-toggle="collapse" data-target="#panel3">SEE MORE</a> -->
+            </div>
+          </div>
+        </div>
 
-      <!-- Site footer -->
-      <footer class="footer">
-        <p>&copy; Portfolio 2017/2018 | Ryan Gundu</p>
-      </footer>
+        <div id="proj4" class="row">
+          <div class="row">
+            <div class="proj-img col-sm-4">
+              <div class="frame">
+                <img class="img-responsive" src="images/fortnite.png"><img>
+              </div>
+            </div>
+            <div class="proj-content col-sm-8">
+              <h1>Fortnite Comparison</h1>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aliquid enim soluta non officiis minima adipisci omnis modi natus sit! Obcaecati, doloribus? Voluptatem quisquam excepturi sint, libero porro repudiandae eligendi.
+              <h1 class="aldrich">var tools = [HTML/CSS, JavaScript, Node.js];</h1>
+              <h1 class="aldrich">SRC: <a href="https://github.com/RyanGundu/fortniteAPI-Interface" target="_blank">https://github.com/RyanGundu/fortniteAPI-Interface</a></h1>
+              <h1 class="aldrich">LINK: <a href="https://fortnite-comparison.herokuapp.com" target="_blank">https://fortnite-comparison.herokuapp.com</a></h1>
+              <!-- <a href="#" class="btn btn-primary btn-md moreBtn showBtn">SEE MORE</a> -->
+            </div>
+          </div>
+        </div>
+        
 
-    </div> <!-- /container -->
+      </div>
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-  </body>
-</html>
+</body>
+<script src="script.js"></script>
+<html>

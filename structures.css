@@ -1,36 +1,23 @@
-main {
-background-color: #F5F3EE;
-padding: 15px;
-border-radius: 15px;
+
+.container {
+    margin-top: 100px;
 }
-
-
-.jumbotron {
-  text-align: center;
-  background-image: url(../Images/schoolBack.jpg);
-  background-repeat: no-repeat;
-  background-position: 60% 40%; 
-  background-size: cover;
-  border-radius: 20px;
-  padding-bottom: 120px;
-  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-}
-
 
 .row {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	/* padding-top: 10px;
+  padding-bottom: 10px; */
+  padding: 10px;
 	border-bottom: 1px solid rgba(0,0,0,0.25);
 	margin: 10px;
 }
 
-.proj1 {
+#proj1 {
   background-color: #e6f2ff;
   border-radius: 10px;
 }
 
 .sec1 {
- background-image: url(../Images/emergRoom.jpg);
+ background-image: url('images/emergRoom.jpg');
   background-repeat: no-repeat;
   background-position: 60% 40%; 
   background-size: cover;
@@ -40,13 +27,13 @@ border-radius: 15px;
 
 }
 
-.proj2 {
-  background-color: #ffc299;
+#proj2 {
+  background-color:#ffccee;
   border-radius: 10px;
 }
 
 .sec2 {
-  background-image: url(../Images/port.png);
+  background-image: url('images/port.png');
   background-repeat: no-repeat;
   background-position: 60% 40%; 
   background-size: cover;
@@ -56,17 +43,13 @@ border-radius: 15px;
 
 }
 
-.sec2 p {
-  
-}
-
-.proj3 {
-	background-color:#ffccee;
+#proj3 {
+	background-color: white;
   border-radius: 10px;
 }
 
 .sec3 {
- background-image: url(../Images/spellCheck.jpg);
+ background-image: url('images/spellCheck.jpg');
   background-repeat: no-repeat;
   background-position: 60% 40%; 
   background-size: cover;
@@ -76,29 +59,29 @@ border-radius: 15px;
 
 }
 
-.proj4 {
-  background-color: white;
-  border-radius: 10px;
-}
-
-.sec4 {
-  background-image: url(../Images/assistant.jpg);
-  background-repeat: no-repeat;
-  background-position: 60% 40%; 
-  background-size: cover;
-  border: 2px solid #595959;
-  border-radius: 20px;
-  padding: 100px;
-
-}
-
-.proj5 {
+#proj4 {
   background-color:  #d9f2d9;
   border-radius: 10px;
 }
 
+.sec4 {
+  background-image: url('images/assistant.jpg');
+  background-repeat: no-repeat;
+  background-position: 60% 40%; 
+  background-size: cover;
+  border: 2px solid #595959;
+  border-radius: 20px;
+  padding: 100px;
+
+}
+
+#proj5 {
+  background-color: #ffc299;
+  border-radius: 10px;
+}
+
 .sec5 {
-  background-image: url(../Images/TrafficLights.jpg);
+  background-image: url('images/TrafficLights.jpg');
   background-repeat: no-repeat;
   background-position: 60% 40%; 
   background-size: cover;
@@ -106,5 +89,3 @@ border-radius: 15px;
   border-radius: 20px;
   padding: 100px;
 }
-
-

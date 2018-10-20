@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="structures.css">
+  <title>Ryan Gundu| Data Structures</title>
+</head>
+<body>
+    <nav class="navbar navbar-default sticky">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <h1 class="name">Ryan Gundu</h1>
+            <!-- <a class="navbar-brand" href="#">Ryan Gundu</a> -->
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">HOME<span class="sr-only">(current)</span></a></li>
+              <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#proj1">Queue</a></li>
+                  <li><a href="#proj2">HashMap</a></li>
+                  <li><a href="#proj3">Binary Search Tree</a></li>
+                  <li><a href="#proj4">Doubly Linked List</a></li>
+                  <li><a href="#proj5">Other</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="active"><a href="dataStructures.html">Data Structures</a></li>
+                </ul>
+              </li>
+              <li><a href="http://www.github.com/RyanGundu"><i class="fa fa-github" style="font-size:36px; color:#005ce6;"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/ryan-gundu/"><i class="fa fa-linkedin" style="font-size:36px; color:#005ce6;"></i></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="container">
+        <h3><u><b>Data Structure Implementations</b></u></h3>
+        <div id="proj1" class="row"> <!-- first -->
+
+            <div class="col-lg-3 sec1"></div>
+  
+            <div class="col-lg-8">
+              <h4><u>Emergency Room Simulator (Patient priority)</u>  | SRC: <a href="https://github.com/RyanGundu/ER-priorityQueue" target="_blank">https://github.com/RyanGundu/ER-priorityQueue</a></h4>
+              <p>   The Emergency room simulator processes a file of patients (in the waiting room). Once simulated it will output the list of patients which includes their name, symptom, priority value as well as their calculated finish time in the ER. Patients can be added and their completion times can also be calculated. The order the patients are treated is based on their priority value. The data structure used to store patient information is a <b><u>queue</u></b> with a linked list implementation.</p>
+              <p>Programming Language Used: C</p>
+              <p>Data Structure Created: Queue (Linked List implementation)</p>
+            </div>
+  
+          </div>
+    
+          <div id="proj2" class="row"> <!-- second -->
+  
+            <div class="col-lg-3 sec3"></div>
+  
+            <div class="col-lg-8">
+              <h4><u>Spell Checker</u>  | SRC: <a href="https://github.com/RyanGundu/SpellChecker" target="_blank">https://github.com/RyanGundu/SpellChecker</a></h4>
+              <p>   The Spell Checkers main purpose is to scan a file for any spelling errors. It displays the incorrectly spelled words in the user-provided file and a number count of correctly/incorrectly spelled words. A dictionary file is required that contains the words that are correctly spelled. The data is stored in a <b><u>hashMap</u></b> made by me, which allows for a more efficient search when comparing to the words in the dictionary. The users may also add and remove words from the dictionary. </p>
+              <p>Programming Language Used: C</p>
+              <p>Data Structure Created: HashMap </p>
+            </div>
+  
+          </div>
+  
+          <div id="proj3" class="row"> <!-- third -->
+  
+            <div class="col-lg-3 sec4"></div>
+  
+            <div class="col-lg-8">
+              <h4><u>Personal Assistant</u>  | SRC: <a href="https://github.com/RyanGundu/personalAssistant" target="_blank">https://github.com/RyanGundu/personalAssistant</a></h4>
+              <p>   Being one of my favorite projects, the Personal assistant responds to the user's questions. After a response is given by the assistant, the user provides a response rating and the assistant grows smarter with the feedback. The program originally loads a file with statements/questions and their corresponding response. Users may add statements/questions and responses for the assistant to remember. The data is stored in a <b><u>binary search tree</u></b>  allowing for an O(log n) search complexity. </p>
+              <p>Programming Language Used: C</p>
+              <p>Data Structure Created: Binary Search Tree</p>
+            </div>
+  
+          </div>
+  
+          <div id="proj4" class="row"> <!-- fourth -->
+  
+            <div class="col-lg-3 sec5"></div>
+  
+            <div class="col-lg-8">
+              <h4><u>Traffic Simulator</u>  | SRC: <a href="https://github.com/RyanGundu/traffic-simulator" target="_blank">https://github.com/RyanGundu/traffic-simulator</a></h4>
+              <p>   For this project, I created a <b><u>doubly linked list</u></b> to simulate traffic going through a modified traffic light. The program reads a file which provides the information of oncoming cars: the direction it's coming from (N, E, S, W), the direction it's headed at the intersection (Left, Right, Straight) and the time it takes to reaches the intersection (Note: a line up can occur at a red light). Given that each turn left, right, or straight all take a different amount of time to cross the intersection, the simulation calculates the global time at which each car will cross the intersection. </p>
+              <p>Programming Language Used: C</p>
+              <p>Data Structure Created: Doubly Linked List </p>
+            </div>
+  
+          </div>
+          <h3><u><b>OTHER</b></u></h3>
+          <div id="proj5" class="row"> <!-- fifth -->
+  
+            <div class="col-lg-3 sec2"></div>
+  
+            <div class="col-lg-8">
+              <h4><u>Investment Portfolio</u>  | SRC: <a href="https://github.com/RyanGundu/InvestmentPortfolio" target="_blank">https://github.com/RyanGundu/InvestmentPortfolio</a></h4>
+              <p>   The purpose of the investment portfolio is to allow the user (through a GUI) to buy, sell, search and update stocks or mutual funds. The program consists of a user-friendly interface which contains a menu for each option listed above. The project uses a <b>hashMap</b> for the search feature for quick results and can save investments as well as reload them into a file.  </p>
+              <p>Programming Language Used: Java</p>
+              <!-- <p><a class="btn btn-primary" href="preview.html" role="button">Preview &raquo;</a></p> -->
+            </div>
+  
+          </div>
+
+      </div>
+
+
+
+
+
+    </body>
+    <script src="script.js"></script>
+<html>
