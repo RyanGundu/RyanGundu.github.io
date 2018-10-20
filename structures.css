@@ -17,7 +17,7 @@
 }
 
 .sec1 {
- background-image: url('images/emergRoom.jpg');
+ background-image: url('./images/emergRoom.jpg');
   background-repeat: no-repeat;
   background-position: 60% 40%; 
   background-size: cover;
@@ -33,7 +33,7 @@
 }
 
 .sec2 {
-  background-image: url('images/port.png');
+  background-image: url('./images/port.png');
   background-repeat: no-repeat;
   background-position: 60% 40%; 
   background-size: cover;
@@ -49,7 +49,7 @@
 }
 
 .sec3 {
- background-image: url('images/spellCheck.jpg');
+ background-image: url('./images/spellCheck.jpg');
   background-repeat: no-repeat;
   background-position: 60% 40%; 
   background-size: cover;
@@ -65,7 +65,7 @@
 }
 
 .sec4 {
-  background-image: url('images/assistant.jpg');
+  background-image: url('./images/assistant.jpg');
   background-repeat: no-repeat;
   background-position: 60% 40%; 
   background-size: cover;
@@ -81,7 +81,7 @@
 }
 
 .sec5 {
-  background-image: url('images/TrafficLights.jpg');
+  background-image: url('./images/TrafficLights.jpg');
   background-repeat: no-repeat;
   background-position: 60% 40%; 
   background-size: cover;

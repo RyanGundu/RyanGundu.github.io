@@ -17,7 +17,7 @@ body {
     z-index: 2;
 }
 
-.navbar-nav > li > a{
+.navbar-nav > li > a {
     line-height: 52px;
 }
 .sticky {
@@ -28,6 +28,10 @@ body {
 
 .name {
     font-family: 'Aldrich';font-size: 40px;
+}
+
+.src {
+    font-size: 15px !important;
 }
 
 .content {
@@ -228,6 +232,7 @@ a.btn-card {
      max-width: 1000;
  }
 /* End double panel */
+
 
 
 
